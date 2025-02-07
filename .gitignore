@@ -1,6 +1,8 @@
 # Data
 data/SBAnational.csv
+data/cleaned_data.csv
 SBAnational.csv
+cleaned_data.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
