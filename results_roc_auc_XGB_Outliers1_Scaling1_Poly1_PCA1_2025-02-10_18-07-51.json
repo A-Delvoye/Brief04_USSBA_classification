@@ -1,0 +1,26 @@
+{
+    "chosen_metric": "roc_auc",
+    "weights": {
+        "XGB": 0.6283297736622964
+    },
+    "weight_vector": [
+        1.0
+    ],
+    "best_threshold": 0.0,
+    "individual_performances": {
+        "XGB": {
+            "Accuracy": 0.8246929095327331,
+            "Precision": 0.8248799728513332,
+            "Recall": 0.999676377586451,
+            "F1-Score": 0.903905240313102,
+            "AUC": 0.6345485640634122
+        }
+    },
+    "fusion_performance": {
+        "Accuracy": 0.8247707595380158,
+        "Precision": 0.8247707595380158,
+        "Recall": 1.0,
+        "F1-Score": 0.9039719156249809,
+        "AUC": 0.6345485640634122
+    }
+}

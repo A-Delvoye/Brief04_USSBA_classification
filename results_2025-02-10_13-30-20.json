@@ -1,0 +1,29 @@
+{
+    "chosen_metric": "f1",
+    "weights": {
+        "XGB": 0.9719296399260315
+    },
+    "best_threshold": 0.5102040816326531,
+    "individual_performances": {
+        "XGB": {
+            "Accuracy": 0.954246439752437,
+            "Precision": 0.9681658078185257,
+            "Recall": 0.9766385070219321,
+            "F1-Score": 0.9723837014163925,
+            "AUC": 0.982160319908951
+        }
+    },
+    "fusion_performance": {
+        "Accuracy": 0.9543076076137306,
+        "Precision": 0.9688449542880855,
+        "Recall": 0.9759845200612186,
+        "F1-Score": 0.9724016323240465,
+        "AUC": 0.982160319908951
+    },
+    "transformations": {
+        "outlier_detection": true,
+        "scaling": true,
+        "polynomial_features": true,
+        "pca": true
+    }
+}

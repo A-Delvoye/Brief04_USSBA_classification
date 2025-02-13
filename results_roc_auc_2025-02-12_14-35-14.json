@@ -1,0 +1,23 @@
+{
+    "chosen_metric": "roc_auc",
+    "best_params": {
+        "max_depth": 11,
+        "learning_rate": 0.04890902343078188,
+        "n_estimators": 358,
+        "subsample": 0.6613284262486891,
+        "colsample_bytree": 0.785237583438447,
+        "gamma": 0,
+        "min_child_weight": 10,
+        "max_delta_step": 4,
+        "scale_pos_weight": 1.6012825565740236,
+        "lambda": 1.2587682450228048,
+        "alpha": 1.7114062404245474
+    },
+    "fusion_performance": {
+        "Accuracy": 0.9513773813628124,
+        "Precision": 0.9595432815771798,
+        "Recall": 0.9824705707851836,
+        "F1-Score": 0.9708715871387263,
+        "AUC": 0.9807256297073541
+    }
+}

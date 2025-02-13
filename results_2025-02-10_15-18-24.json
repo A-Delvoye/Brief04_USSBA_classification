@@ -1,0 +1,40 @@
+{
+    "chosen_metric": "f1",
+    "weights": {
+        "LogReg": 0.9039734392996179,
+        "RF": 0.8986663041103016,
+        "XGB": 0.9031858628244259,
+        "GB": 0.9041787666800076,
+        "SGD": 0.9038847582000411,
+        "DTC": 0.8411048581575713,
+        "Ada": 0.9039734392996179
+    },
+    "weight_vector": 
+	Performances des classifieurs:
+LogReg: {'Accuracy': 0.8247707595380158, 'Precision': 0.8247707595380158, 'Recall': 1.0, 'F1-Score': 0.9039719156249809, 'AUC': 0.564602232435462}
+RF: {'Accuracy': 0.8210450807137734, 'Precision': 0.8388920986746503, 'Recall': 0.9691479965749962, 'F1-Score': 0.8993280612627944, 'AUC': 0.6905192980403709}
+XGB: {'Accuracy': 0.8256215488814622, 'Precision': 0.8292330038057063, 'Recall': 0.9930825709103903, 'F1-Score': 0.9037916974741447, 'AUC': 0.7015513095093444}
+GB: {'Accuracy': 0.8252100559963966, 'Precision': 0.8255933147632312, 'Recall': 0.9991437490308183, 'F1-Score': 0.9041153556361551, 'AUC': 0.6878421441320659}
+SGD: {'Accuracy': 0.8247707595380158, 'Precision': 0.8247707595380158, 'Recall': 1.0, 'F1-Score': 0.9039719156249809, 'AUC': 0.5115214218612414}
+DTC: {'Accuracy': 0.7404369609582223, 'Precision': 0.8460281471495394, 'Recall': 0.8377572966741055, 'F1-Score': 0.8418724084663541, 'AUC': 0.5600367556425818}
+Ada: {'Accuracy': 0.8247707595380158, 'Precision': 0.8247707595380158, 'Recall': 1.0, 'F1-Score': 0.9039719156249809, 'AUC': 0.6570331572183281}
+Vecteur de poids normalisés (f1) : [0.14442853 0.1435806  0.14430269 0.14446133 0.14441436 0.13438396
+ 0.14442853]
+ 
+ Performances après fusion par pondération:
+{'Accuracy': 0.8270395311205396, 'Precision': 0.828834490071873, 'Recall': 0.9959749462314844, 'F1-Score': 0.9047502388593547, 'AUC': 0.6886987819309498}
+
+Seuil optimal sélectionné: 0.55
+
+Rapport de classification :
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.03      0.06     31512
+         1.0       0.83      1.00      0.90    148321
+
+    accuracy                           0.83    179833
+   macro avg       0.73      0.51      0.48    179833
+weighted avg       0.79      0.83      0.76    179833
+
+use_outlier_detection = False
+Les autres : True

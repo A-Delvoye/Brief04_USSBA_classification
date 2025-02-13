@@ -1,0 +1,26 @@
+{
+    "chosen_metric": "accuracy",
+    "weights": {
+        "XGB": 0.950844603598209
+    },
+    "weight_vector": [
+        1.0
+    ],
+    "best_threshold": 0.5102040816326531,
+    "individual_performances": {
+        "XGB": {
+            "Accuracy": 0.9532343896837622,
+            "Precision": 0.9665535110476787,
+            "Recall": 0.9771104563750245,
+            "F1-Score": 0.9718033138649912,
+            "AUC": 0.9805832767248287
+        }
+    },
+    "fusion_performance": {
+        "Accuracy": 0.9532733146864035,
+        "Precision": 0.9671906720803505,
+        "Recall": 0.9764699536815421,
+        "F1-Score": 0.9718081626490866,
+        "AUC": 0.9805832767248287
+    }
+}

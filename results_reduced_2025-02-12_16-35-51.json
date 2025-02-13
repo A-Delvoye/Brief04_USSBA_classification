@@ -1,0 +1,32 @@
+{
+    "best_params": {
+        "objective": "binary:logistic",
+        "eval_metric": "auc",
+        "max_depth": 10,
+        "learning_rate": 0.08127793890152064,
+        "n_estimators": 301,
+        "subsample": 0.8998377792872224,
+        "colsample_bytree": 0.7064372895885673,
+        "gamma": 0,
+        "min_child_weight": 4,
+        "max_delta_step": 3,
+        "scale_pos_weight": 0.5956065021713672,
+        "lambda": 1.8686162524289114,
+        "alpha": 0.22511566813369155,
+        "random_state": 42
+    },
+    "fusion_performance_initial": {
+        "Accuracy": 0.9516887796523461,
+        "Precision": 0.9738174414658975,
+        "Recall": 0.9674357141893988,
+        "F1-Score": 0.9706160880976217,
+        "AUC": 0.9808307521097335
+    },
+    "fusion_performance_reduced": {
+        "Accuracy": 0.9356740104763281,
+        "Precision": 0.9677525276709855,
+        "Recall": 0.9537897277544801,
+        "F1-Score": 0.9607203976856002,
+        "AUC": 0.9699828139910869
+    }
+}
